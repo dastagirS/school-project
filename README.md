@@ -1,20 +1,20 @@
-# RDP_COFFIN
+# Windows2019RDP-US
+Windows Server 2019 Github with RDP Access (ngrok US) 
 
-> **2CPU & 7GB RAM**
+Create a free VPS with 2cpu-7gb Ram FREE with Github:
 
-> ## [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/c9ffin/RDP_COFFIN/blob/main/.github/workflows/coffin.yml)
+*For Asia Wait*
 
-### Upon contacting the author, I made sure that I could modify the project. 
++ Click Fork in the right corner of the screen to save it to your Github.
++ Visit https://dashboard.ngrok.com to get NGROK_AUTH_TOKEN
++ In Github go to Settings> Secrets> New repository secret
++ In Name: enter NGROK_AUTH_TOKEN
++ In Value: visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste Your Authtoken into
++ Press Add secret
++ Go to Action> CI> Run workflow
++ Reload the page and press CI> build
++ Press the down arrow on Connect To Your RDP to get IP, User, Password.
 
-* Click Fork in the right corner of the screen to save it to your Github.
-* Visit https://dashboard.ngrok.com to get **NGROK_AUTH_TOKEN**
-* In Github go to ⚙ Settings> Secrets> New repository secret
-* In Name: enter **NGROK_AUTH_TOKEN**
-* In Value: visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste Your Authtoken into
-* Press Add secret
-* Go to Action> RDP_COFFIN> Run workflow
-* Reload the page and press RDP_COFFIN> build
-* Press the down arrow on Connect To Your RPD to get IP, User, Password.
+*IF MY REPO GOT DELETED,ON YOUR GITHUB GO TO .github/workflows > main.yml AND EDIT NEW LINK TO YOUR REPO. ALL .BAT in Files FOLDER* 
+* PLEASE DON'T MINING CRYPTO AGAIN *
 
-## Original Author:
-> Made by c9ffin
